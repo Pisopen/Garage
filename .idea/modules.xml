@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Garage.iml" filepath="$PROJECT_DIR$/.idea/Garage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Garage.iml" filepath="$PROJECT_DIR$/Garage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Garages/Garages.iml" filepath="$PROJECT_DIR$/Garages/Garages.iml" />
     </modules>
   </component>
 </project>
