@@ -9,10 +9,6 @@ public class List extends ArrayList {
     private ArrayList<String> List_Mar=new ArrayList<String>();
     private ArrayList<String> List_Col=new ArrayList<String>();
 
-    public int get_size(){
-        return List_Mod.size();
-    }
-
     public void search_mod(String mod){
         for (int i=0;i<List_Mod.size();i++){
             if (List_Mod.get(i)== mod){
@@ -25,7 +21,6 @@ public class List extends ArrayList {
 
         }
     }
-
     @Override
     public String toString() {
         return "List{" +
@@ -34,13 +29,11 @@ public class List extends ArrayList {
                 ", List_Col=" + List_Col +
                 '}';
     }
-
     public void add_voiture(Voiture voiture){
         List_Mod.add(voiture.getModele());
         List_Col.add(voiture.getColor());
         List_Mar.add(voiture.getMarque());
     }
-
     public void search_col(String col){
         for (int i=0;i<List_Col.size();i++){
             if (List_Col.get(i)== col){
