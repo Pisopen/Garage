@@ -6,4 +6,12 @@ public class Auto extends Voiture {
         super(marque, modele, color);
     }
 
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "marque='" + marque + '\'' +
+                ", modele='" + modele + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

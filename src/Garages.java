@@ -31,9 +31,7 @@ public class Garages {
 
     @Override
     public String toString() {
-        return "Garage{" +
-                "voiture=" + voiture +
-                ", garage=" + garage +
+        return "Garage{" + garage +
                 '}';
     }
 }
